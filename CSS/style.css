@@ -1,16 +1,18 @@
 body {
   display: flex;
   flex-direction: column;
-  max-width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  max-width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
-
-
 
 header {
   display: flex;
   justify-content: space-between;
+}
+
+h1 {
+  margin-bottom: 0px;
 }
 
 .ticker-tape {
@@ -18,18 +20,51 @@ header {
   flex-direction: column;
   margin: 0;
 }
+
 .ticker-tape p {
   margin: 0;
 }
 
+.share {
+  margin-top: 20px;
+}
 
 .logo {
   display: flex;
 }
+
 .logo img {
   height: 50px;
   width: 50px;
 }
+
+.line {
+  background-image: repeating-linear-gradient(45deg, black, black 2px, white 2px, white 4px);
+  margin: 20px 0px;
+}
+
+#main-p p {
+  font-size: 20px;
+  text-indent: 2em;
+}
+
+#main-head {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2px;
+}
+
+#print {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
 #rss {
   padding-left: 1em;
+}
+
+#print-img {
+  padding-right: 5px;
 }

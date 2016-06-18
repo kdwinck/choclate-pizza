@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ticker-tape {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+.ticker-tape p {
+  margin: 0;
+}
+
+
+.logo {
+  display: flex;
+}
+.logo img {
+  height: 50px;
+  width: 50px;
+}
+#rss {
+  padding-left: 1em;
+}

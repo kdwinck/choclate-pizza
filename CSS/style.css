@@ -6,6 +6,10 @@
   margin-bottom: 0;
 }
 
+html {
+  height: 100%,
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -52,11 +56,6 @@ h1 {
   margin: 20px 0px;
 }
 
-#main-p p {
-  font-size: 20px;
-  text-indent: 2em;
-}
-
 #main-head {
   display: flex;
   justify-content: space-between;
@@ -81,14 +80,43 @@ h1 {
 #recipe {
   background-image: url(../img/list-bg.png);
   display: flex;
+  margin: 40px 0px;
+}
+
+#bio {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 ul li {
   list-style-type: none;
 }
-li:select {
-  text-decoration: line-through;
+
+label {
+  font-size: 24px;
 }
+
 input[type=checkbox]:checked + label{
  text-decoration: line-through;
+}
+
+input[type=button] {
+  color: white;
+  font-size: 16px;
+  background-color: #b46c21;
+  height: 50px;
+  width: 150px;
+  border: none;
+}
+
+h3 {
+  margin-bottom: 5px;
+}
+
+#main-p p {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  text-indent: 2em;
 }

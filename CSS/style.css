@@ -1,3 +1,11 @@
+@import 'https://fonts.googleapis.com/css?family=Calligraffitti%7COpen+Sans%7CPacifico';
+
+#cursive {
+  font-family: 'Calligraffitti', cursive;
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -23,6 +31,7 @@ h1 {
 
 .ticker-tape p {
   margin: 0;
+  /*line-height: 3px;*/
 }
 
 .share {
@@ -67,4 +76,19 @@ h1 {
 
 #print-img {
   padding-right: 5px;
+}
+
+#recipe {
+  background-image: url(../img/list-bg.png);
+  display: flex;
+}
+
+ul li {
+  list-style-type: none;
+}
+li:select {
+  text-decoration: line-through;
+}
+input[type=checkbox]:checked + label{
+ text-decoration: line-through;
 }
